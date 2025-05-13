@@ -9,7 +9,7 @@ class Program
 
         Console.WriteLine("Enter a list of numbers, type 0 when finished.");
 
-        // Collect numbers
+        
         while (input != 0)
         {
             Console.Write("Enter number: ");
@@ -21,7 +21,7 @@ class Program
             }
         }
 
-        // Core requirements
+        
         int sum = numbers.Sum();
         double average = numbers.Average();
         int max = numbers.Max();
